@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: url("../images/retro-living-room-interior-design.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+nav {
+  height: 15vh;
+  margin: 0 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  flex: 1;
+  list-style-type: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 25px;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.contactUs {
+  margin-left: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content p {
+  margin-left: 10px;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.horizontalLine {
+  margin: 0 5%;
+  width: 65.5%;
+  height: 2px;
+  background-color: #ffffff;
+  float: right;
+  right: 5%;
+}
+
+.containerContent {
+  margin: 6% 0 0 5%;
+}
+
+.containerContent h1 {
+  font-size: 80px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.learnMore {
+  margin: 3% 0 0 0;
+  background: transparent;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 35px;
+  padding: 15px 45px;
+}
+
+.card {
+  background-color: rgba(53, 70, 80, 0.6);
+  width: 250px;
+  height: 130px;
+  padding: 15px 20px;
+}
+
+.cardInfo > div:first-child {
+  position: absolute;
+  bottom: 15%;
+  right: 33%;
+}
+
+.cardInfo > .card > .img {
+  background-color: #ffffff;
+  width: 100px;
+  height: 45px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0 15px 0;
+}
+
+.cardInfo > .card > .img > img {
+  height: 40px;
+}
+
+.cardInfo > .card {
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.cardLine {
+  position: absolute;
+  width: 80px;
+  right: -79px;
+  top: 70px;
+}
+
+.cardInfo > div:last-child {
+  position: absolute;
+  top: 25%;
+  right: 10%;
+}
+
+.cardLine2 {
+  width: 80px;
+  position: absolute;
+  transform: rotate(90deg);
+  bottom: -46px;
+  right: 50px;
+}
