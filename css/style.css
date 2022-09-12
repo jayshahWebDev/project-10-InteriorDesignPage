@@ -140,3 +140,88 @@ nav {
   bottom: -46px;
   right: 50px;
 }
+
+@media screen and (min-width: 481px) {
+  .menuIcon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-position: left;
+  }
+
+  .nav-items,
+  .contactUs {
+    display: none;
+  }
+
+  .logo {
+    height: 35px;
+  }
+
+  .menuIcon {
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .horizontalLine {
+    display: none;
+  }
+
+  .containerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 0 0 0;
+  }
+
+  .containerContent h1 {
+    font-size: 30px;
+  }
+
+  .learnMore {
+    font-size: 15px;
+    padding: 10px 25px;
+  }
+
+  .card {
+    background-color: rgba(53, 70, 80, 0.6);
+    width: 220px;
+    height: 110px;
+    padding: 10px 15px;
+  }
+
+  .cardInfo > div:first-child {
+    bottom: 16%;
+  }
+
+  .cardInfo > .card > .img {
+    width: 80px;
+    height: 40px;
+  }
+
+  .cardInfo > .card > .img > img {
+    height: 30px;
+  }
+
+  .cardInfo > .card {
+    font-size: 15px;
+  }
+
+  .cardLine {
+    width: 60px;
+    right: -59px;
+  }
+
+  .cardInfo > div:last-child {
+    top: 39%;
+  }
+
+  .cardLine2 {
+    width: 60px;
+    bottom: -35px;
+  }
+}
